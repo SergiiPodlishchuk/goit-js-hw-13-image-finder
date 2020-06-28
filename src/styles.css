@@ -8,8 +8,39 @@ html {
   box-sizing: inherit;
 }
 
-img {
+/* img {
   display: block;
   width: 100%;
   height: auto;
+} */
+body {
+  max-width: 1400px;
+}
+
+.search-form {
+  margin-bottom: 30px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 300px;
+  font-size: 14px;
+}
+
+.gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+
+  flex-wrap: wrap;
+
+}
+
+.gallery li {
+  margin-left: 20px;
+
 }
