@@ -8,39 +8,73 @@ html {
   box-sizing: inherit;
 }
 
-/* img {
+img {
   display: block;
   width: 100%;
   height: auto;
-} */
-body {
-  max-width: 1400px;
 }
 
+/* body {
+  max-width: 1400px;
+} */
+
 .search-form {
+
   margin-bottom: 30px;
+
+}
+
+.search-form input {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.photo-card {
+  position: relative;
 }
 
 .stats {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  list-style: none;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: flex-start;
-  width: 300px;
+  width: 250px;
   font-size: 14px;
 }
 
-.gallery {
+.stats-item {
+  opacity: 0.8;
+  background-color: rgb(255, 0, 0);
+}
+
+/* .gallery {
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
 
   flex-wrap: wrap;
-
 }
 
 .gallery li {
   margin-left: 20px;
+} */
 
+.grid-item {
+  width: 350px;
+}
+
+
+button {
+  width: 200px;
+  background-color: rgb(64, 64, 241);
+  border-radius: 50px;
+  font-size: larger;
+  text-align: center;
+  margin: 0 auto;
 }

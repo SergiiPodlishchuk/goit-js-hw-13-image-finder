@@ -1,7 +1,7 @@
 {{#each this}}
-<li>
+<li class="post grid-item">
     <div class="photo-card">
-        <img class="imageSmall" src="{{webformatURL}}" alt="{{tags}}" width="300">
+        <img class="imageSmall" src="{{webformatURL}}" alt="{{tags}}" width="300" srcset="{{largeImageURL}}">
 
         <div class="stats">
             <p class="stats-item">
@@ -22,9 +22,7 @@
             </p>
         </div>
     </div>
-    <div id="image" hidden>
-        <img width="1400" height="900" src="{{largeImageURL}}">
-    </div>
+
 
 </li>
 {{/each}}
